@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+body {
+  font-family: "Edu AU VIC WA NT Pre", Nanum Pen Script, serif;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  background-color: green;
+  font-size: 40px;
+  text-align: center;
+}
+
+.제목태그 {
+  text-decoration: none;
+  color: white;
+}
+
+.목차태그 {
+  text-decoration: none;
+  color: tomato;
+}
+
+li {
+  color: blue;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+li {
+  background-color: white;
+}
+
+h2 {
+  background-color: turquoise;
+  text-align: center;
+}
+
+h1 {
+  border: 5px solid orange;
+}
+
+h2 {
+  border: 5px solid blue;
+}
+
+div {
+  border: 5px solid green;
+  color: green;
+}
+
+.내방 {
+  border-right: 5px solid gray;
+}
+
+.우리집 {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+img {
+  width: 80%
+}
+
+
+
+@media(max-width:500px) {
+  h1 {
+    font-size: 20px;
+    background-color: yellow;
+  }
+
+  .제목태그 {
+    color: purple;
+  }
+
+  .우리집 {
+    display: block;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  img {
+    width: 100%
+  }
+}
